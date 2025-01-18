@@ -11,7 +11,7 @@ import java.util.Optional;
 @Service // registra classe como componete do spring
 public class CategoryService {
     // Nessa classe vai ter uma operação para buscar todos usuários e o usuário pelo Id dele
-
+//
     @Autowired // injeção de dependencia automatica de forma transapante ao programador
 
     private CategoryRepository repository;
