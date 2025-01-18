@@ -14,7 +14,7 @@ import java.util.List;
 
 import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 
-@RestController /* Isso é para informar para Spring  que essa classe
+    @RestController /* Isso é para informar para Spring  que essa classe
 é um recurso Web que é  implementado
 em cima de um contralador REST */
 @RequestMapping(value= "/users") /*  Para dar um nome para o recurso acima
